@@ -3,11 +3,10 @@
 name = "lua-digest-crc32lua"
 version = "0.1.0"
 
-desc = "'digest.crc32lua' CRC-32 checksum implemented in pure Lua"
+desc = "digest.crc32lua - CRC-32 checksum implemented in pure Lua"
 author = "David Manura"
-
 maintainer = "Peter Kapec"
-homepage = "http://lua-users.org/wiki/ModuleDigestCRC32Lua"
+url = "https://github.com/davidm/lua-digest-crc32lua"
 license = "MIT"
 
 depends = {
