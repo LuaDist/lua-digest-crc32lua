@@ -1,0 +1,25 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "David Manura"
+depends = {
+[[lua ~>5.1]],
+[[lua-bit-numberlua >=0.1.0]],
+}
+
+desc = "digest.crc32lua - CRC-32 checksum implemented in pure Lua"
+version = "0.1.0"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib/lua/digest/crc32lua.lua]],
+}
+,
+Data = {
+[[share/lua-digest-crc32lua/COPYRIGHT]],
+}
+,
+}
+
+url = "https://github.com/davidm/lua-digest-crc32lua"
+name = "lua-digest-crc32lua"
+license = "MIT"
